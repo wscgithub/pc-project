@@ -1,0 +1,55 @@
+/*
+* @Author: Administrator
+* @Date:   2016-09-21 14:58:20
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-09-21 20:23:19
+*/
+@charset 'utf-8'
+
+html,
+body,
+div,
+ul,li,
+img {
+	margin: 0;
+	padding: 0;
+}
+
+.banner-wrapper {
+	position: relative;
+	width: 400px;
+	height: 260px;
+}
+.banner-wrapper .img-wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.banner-wrapper .img-wrapper img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.banner-wrapper .img-wrapper img:nth-child(1) {
+	display: block;
+}
+.banner-wrapper .arrow {
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	float: left;
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	background-color: #c33;
+	cursor: pointer;
+}
+.banner-wrapper .arrow-left {
+	left: 0;
+}
+.banner-wrapper .arrow-right {
+	right: 0;
+}
